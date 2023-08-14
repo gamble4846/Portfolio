@@ -1,0 +1,8 @@
+.Main{
+    padding: 5px;
+}
+
+.BodySection{
+    max-height: calc(100vh - (69px + 10px));
+    overflow: auto;
+}

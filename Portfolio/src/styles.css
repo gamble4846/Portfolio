@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary-orange: #c1642f;
+    --primary-background-color: #000;
+}
+
+* {
+    margin: 0px;
+}
+
+
+@font-face {
+    font-family: Angelina;
+    src: url(./assets/Fonts/Angelina.otf);
+}
+
+@font-face {
+    font-family: Rosmatika;
+    src: url(./assets/Fonts/Rosmatika.ttf);
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-orange);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-orange);
+}
