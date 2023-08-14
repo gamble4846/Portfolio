@@ -31,3 +31,9 @@
     margin-bottom: 10px;
     border-color: var(--primary-orange);
 }
+
+@media only screen and (max-width: 750px) {
+    .ContectMeFormInnerContainer{
+        width: 100%;
+    }
+}
