@@ -5,6 +5,7 @@
 }
 
 .MobileMenuOuterContainer {
+    margin-top: 5px;
     border: 2px solid var(--primary-orange);
     border-radius: 15px;
     padding: 15px 0px;
@@ -14,7 +15,6 @@
     position: fixed;
     background-color: black;
     right: -405px;
-    bottom: 0px;
     transition: 0.3s ease-in-out;
     overflow: hidden;
     display: none;
