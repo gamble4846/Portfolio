@@ -1,23 +1,24 @@
 .HeaderOuterContainer {
     border: 2px solid var(--primary-orange);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
 }
 
 .MobileMenuOuterContainer {
     border: 2px solid var(--primary-orange);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px 0px;
     width: 400px;
     max-width: calc(100vw - 10px);
-    height: calc(100vh - (69px + 15px));
+    height: calc(100vh - (69px + 10px));
     position: fixed;
     background-color: black;
     right: -405px;
-    bottom: 5px;
+    bottom: 0px;
     transition: 0.3s ease-in-out;
     overflow: hidden;
     display: none;
+    z-index: 999;
 }
 
 .HeaderMenuList{

@@ -1,0 +1,33 @@
+.ContectMeFormOuterContainer {
+    border-radius: 15px;
+    background: url("https://i.imgur.com/ucsAoiy.jpeg");
+    background-size: cover;
+    height: 100%;
+    min-height: 60vh;
+}
+
+.ContectMeFormInnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.FormContainer {
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    background: #ffffff4a;
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+.sendButton{
+    border-radius: 10px;
+}
+
+.OrangeHR{
+    margin: 0px;
+    margin-bottom: 10px;
+    border-color: var(--primary-orange);
+}

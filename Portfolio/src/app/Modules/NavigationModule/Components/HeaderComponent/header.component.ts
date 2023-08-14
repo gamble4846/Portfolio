@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MenuModel } from 'src/app/Models/MenuModel';
+import { CommonService } from 'src/app/Modules/SharedModule/Services/common.service';
 
 @Component({
   selector: 'app-header',
@@ -18,35 +19,14 @@ export class HeaderComponent implements OnInit {
     this.SetupOutsideClick();
   }
 
+  constructor(private _CommonService:CommonService) { }
+
   ToggleMenu() {
     this.MenuOpened = !this.MenuOpened;
   }
 
   SetupMenuData() {
-    this.MenuData.push({
-      Name: 'Home',
-      Route: ''
-    });
-
-    this.MenuData.push({
-      Name: 'Contact Me',
-      Route: ''
-    });
-
-    this.MenuData.push({
-      Name: 'Projects',
-      Route: ''
-    });
-
-    this.MenuData.push({
-      Name: 'Job Experience',
-      Route: ''
-    });
-
-    this.MenuData.push({
-      Name: 'Resume',
-      Route: ''
-    });
+    this.MenuData = this._CommonService.GetMenuData();
   }
 
   SetupOutsideClick() {

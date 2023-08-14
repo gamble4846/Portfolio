@@ -20,6 +20,11 @@
     src: url(./assets/Fonts/Rosmatika.ttf);
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(./assets/Fonts/Inter.ttf);
+}
+
 
 ::-webkit-scrollbar {
     width: 4px;
@@ -36,4 +41,26 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-orange);
+}
+
+.ContectMeFormOuterContainer .FormContainer input, .ContectMeFormOuterContainer .FormContainer textarea{
+    background-color: white !important;
+    color: black !important;
+}
+
+.ContectMeFormOuterContainer .FormContainer .ant-form-item-label{
+    text-align: left;
+    color: #000;
+}
+
+.ContectMeFormOuterContainer .FormContainer .ant-form-item-label label{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.FormHeader{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
 }

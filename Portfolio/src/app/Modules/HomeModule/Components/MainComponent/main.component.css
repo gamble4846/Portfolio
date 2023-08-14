@@ -1,0 +1,10 @@
+.componentCell{
+    padding-bottom: 5px;
+}
+
+.temp1{
+    border-radius: 15px;
+    background: var(--primary-orange);
+    background-size: cover;
+    height: 200px;
+}

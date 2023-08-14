@@ -1,0 +1,25 @@
+<div class="ContectMeFormOuterContainer">
+    <div class="ContectMeFormInnerContainer">
+        <div class="FormContainer">
+            <div class="FormHeader">
+                Contact Me
+            </div>
+            <hr class="OrangeHR">
+            <form nz-form [formGroup]="ContectMeForm" (ngSubmit)="SubmitContectMeForm()">
+                <nz-form-item>
+                    <nz-form-label [nzXs]="24" nzFor="email">Your Email</nz-form-label>
+                    <nz-form-control [nzXs]="24" nzErrorTip="The input is not valid E-mail!">
+                        <input nz-input formControlName="email" id="email" />
+                    </nz-form-control>
+                </nz-form-item>
+                <nz-form-item>
+                    <nz-form-label [nzXs]="24" nzFor="message">Message</nz-form-label>
+                    <nz-form-control [nzXs]="24" nzErrorTip="Message is Required">
+                        <textarea [rows]="15" nz-input formControlName="message" id="message"></textarea>
+                    </nz-form-control>
+                </nz-form-item>
+                <button nz-button nzType="primary" class="sendButton">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
