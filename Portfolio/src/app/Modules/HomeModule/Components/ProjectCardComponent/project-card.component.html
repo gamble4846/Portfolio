@@ -1,0 +1,15 @@
+<div class="ProjectCardOuterContainer" [style]="StylesToApply">
+    <div nz-row class="ProjectCardInnerContainer" [nzGutter]="10">
+        <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="12" nzXl="12" *ngIf="ProjectPrimaryImageURL" class="ProjectPrimaryImageContainer">
+            <img [src]="ProjectPrimaryImageURL" class="ProjectPrimaryImage">
+        </div>
+        <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="12" nzXl="12" *ngIf="ProjectPrimaryImageURL">
+            <div class="ProjectTitle">{{ProjectTitle}}</div>
+            <div class="ProjectDescription">{{ProjectDescription}}</div>
+        </div>
+        <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" *ngIf="!ProjectPrimaryImageURL">
+            <div class="ProjectTitle">{{ProjectTitle}}</div>
+            <div class="ProjectDescription">{{ProjectDescription}}</div>
+        </div>
+    </div>
+</div>

@@ -2,9 +2,21 @@
     padding-bottom: 5px;
 }
 
-.temp1{
+.JustOrange{
     border-radius: 15px;
     background: var(--primary-orange);
     background-size: cover;
-    height: 200px;
+    padding: 10px;
+}
+
+.JustOrange.SectionHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JustOrange span{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }

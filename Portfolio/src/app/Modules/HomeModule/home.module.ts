@@ -11,12 +11,14 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NzButtonModule } from 'ng-zorro-antd/button';
+import { ProjectCardComponent } from './Components/ProjectCardComponent/project-card.component';
 
 @NgModule({
   declarations: [
     MainComponent,
     IntroductionComponent,
-    ContectMeFormComponent
+    ContectMeFormComponent,
+    ProjectCardComponent
   ],
   imports: [
     CommonModule,

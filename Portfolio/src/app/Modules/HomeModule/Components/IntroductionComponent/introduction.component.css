@@ -4,6 +4,7 @@
     background-size: cover;
     height: 100%;
     min-height: 60vh;
+    animation: fadeInAnimation ease 1s;
 }
 
 .IntroductionInnerContainer{
@@ -22,4 +23,8 @@
 
 .IntroductionInnerContainer .IntroductionDescription{
     font-size: 25px;
+}
+
+.IntroductionInnerContainer .IntroductionDescriptionAboutMe{
+    font-size: 20px;
 }
