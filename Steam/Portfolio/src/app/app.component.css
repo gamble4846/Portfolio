@@ -1,0 +1,32 @@
+.BackgroundSection{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.MainSection{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    background-color: #632654a8;
+    z-index: 1;
+    width: 100%;
+}
+
+.MenuSection{
+    z-index: 2;
+    background-color: #11111fd4;
+    width: 100%;
+}
+
+.BodySection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100% - 45px);
+    flex-wrap: wrap;
+    font-family: MotivaSans;
+}

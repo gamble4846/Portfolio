@@ -1,0 +1,30 @@
+.Main {
+    padding: 5px;
+    font-family: 'Inter';
+}
+
+.BodySection {
+    max-height: calc(100vh - (69px + 10px));
+    overflow: auto;
+}
+
+.Header {
+    padding: 5px;
+}
+
+.BodySection {
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.FullLoaderSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DisplayNone{
+    display: none;
+}
