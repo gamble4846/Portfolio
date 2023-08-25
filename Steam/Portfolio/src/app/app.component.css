@@ -13,6 +13,7 @@
     background-color: #632654a8;
     z-index: 1;
     width: 100%;
+    overflow: auto;
 }
 
 .MenuSection{

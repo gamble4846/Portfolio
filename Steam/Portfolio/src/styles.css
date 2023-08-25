@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "MotivaSans";
     src: url(./assets/Fonts/MotivaSans.otf);
@@ -7,4 +6,36 @@
 @font-face {
     font-family: "Angelina";
     src: url(./assets/Fonts/Angelina.otf);
+}
+
+.ShowUnder500 {
+    display: none !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .HideUnder500 {
+        display: none !important;
+    }
+
+    .ShowUnder500 {
+        display: block !important;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff1e46;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6b0014;
 }
