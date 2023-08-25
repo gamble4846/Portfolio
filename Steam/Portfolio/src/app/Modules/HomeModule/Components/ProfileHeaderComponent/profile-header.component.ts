@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DisplayCabinateItemsModel } from 'src/app/Models/DisplayCabinateItemsModel';
 
 @Component({
   selector: 'app-profile-header',
@@ -6,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./profile-header.component.css']
 })
 export class ProfileHeaderComponent {
-
 }

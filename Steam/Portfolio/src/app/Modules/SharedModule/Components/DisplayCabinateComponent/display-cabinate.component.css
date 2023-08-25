@@ -1,0 +1,28 @@
+.DisplayCabinateOuterContainer{
+    padding: 10px 5px;
+}
+
+.DisplayCabinateHeader{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.DisplayCabinateHeaderText{
+    padding-right: 5px;
+}
+
+.DisplayCabinateHeader:hover .DisplayCabinateHeaderText{
+    text-decoration: underline;
+}
+
+.DisplayCabinateTotal{
+    color: #868d88;
+    font-size: 25px;
+}
+
+.DisplayCabinateIconImage{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

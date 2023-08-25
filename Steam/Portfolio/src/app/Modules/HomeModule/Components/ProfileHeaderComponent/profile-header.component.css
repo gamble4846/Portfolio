@@ -1,5 +1,7 @@
 .ProfileHeaderContainer {
     padding: 40px 20px;
+    background: rgb(46, 18, 43);
+    background: linear-gradient(180deg, rgba(46, 18, 43, 0.7399334733893557) 0%, rgba(81, 34, 69, 0.7175245098039216) 100%);
 }
 
 .ProfileHeaderImageContainer {

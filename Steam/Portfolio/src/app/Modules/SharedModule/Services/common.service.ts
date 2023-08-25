@@ -21,26 +21,6 @@ export class CommonService {
     });
 
     MenuData.push({
-      Name: 'Projects',
-      Route: ''
-    });
-
-    MenuData.push({
-      Name: 'Job Experience',
-      Route: ''
-    });
-
-    MenuData.push({
-      Name: 'Certificates',
-      Route: ''
-    });
-
-    MenuData.push({
-      Name: 'Social Media Posts',
-      Route: ''
-    });
-
-    MenuData.push({
       Name: 'Resume',
       Route: ''
     });

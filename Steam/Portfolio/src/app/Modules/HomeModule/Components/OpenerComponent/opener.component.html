@@ -1,9 +1,40 @@
 <app-profile-header></app-profile-header>
-<div nz-row>
-    <div nz-col nzXs="24" nzSm="24" nzMd="18" nzLg="18" nzXl="18" style="height: 100vh;">
-        
-    </div>
-    <div nz-col nzXs="24" nzSm="24" nzMd="6" nzLg="6" nzXl="6" style="height: 100vh;">
-        
+<div class="OpenerMainContainer">
+    <div nz-row nzGutter="10">
+        <div nz-col nzXs="24" nzSm="24" nzMd="17" nzLg="17" nzXl="17" [nzSm]="{ order: 2 }" [nzMd]="{ order: 1 }"
+            class="OpenerLeftController">
+
+        </div>
+        <div nz-col nzXs="24" nzSm="24" nzMd="7" nzLg="7" nzXl="7" [nzSm]="{ order: 1 }" [nzMd]="{ order: 2 }"
+            class="OpenerRightController">
+            <div class="OpenerRightInnerController">
+                <div nz-row nzGutter="10">
+                    <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="24" nzXl="24">
+                        <app-display-cabinate Title="Skills" [Items]="SkillsItems" [Total]="4">
+                        </app-display-cabinate>
+                    </div>
+                    <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="24" nzXl="24">
+                        <app-display-cabinate Title="Projects" [Total]="4">
+                        </app-display-cabinate>
+                    </div>
+                    <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="24" nzXl="24">
+                        <app-display-cabinate Title="Certificates" [Total]="4">
+                        </app-display-cabinate>
+                    </div>
+                    <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="24" nzXl="24">
+                        <app-display-cabinate Title="Companies" [Total]="4">
+                        </app-display-cabinate>
+                    </div>
+                    <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="24" nzXl="24">
+                        <app-display-cabinate Title="Blog" [Total]="4">
+                        </app-display-cabinate>
+                    </div>
+                    <div nz-col nzXs="24" nzSm="12" nzMd="12" nzLg="24" nzXl="24">
+                        <app-display-cabinate Title="Posts" [Total]="4">
+                        </app-display-cabinate>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

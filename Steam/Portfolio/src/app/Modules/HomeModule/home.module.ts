@@ -8,6 +8,7 @@ import { ProfileHeaderComponent } from './Components/ProfileHeaderComponent/prof
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzIconModule } from 'ng-zorro-antd/icon';
+import { SharedModule } from "../SharedModule/shared.module";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
     HomeRoutingModule,
     NzGridModule,
     NzButtonModule,
-    NzIconModule
+    NzIconModule,
+    SharedModule
   ]
 })
 export class HomeModule { }

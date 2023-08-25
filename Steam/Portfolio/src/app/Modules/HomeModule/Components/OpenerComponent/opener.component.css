@@ -1,0 +1,20 @@
+.OpenerMainContainer{
+    overflow: hidden;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.OpenerLeftController{
+    height: 100%;
+}
+
+.OpenerRightController{
+    height: 100%;
+}
+
+.OpenerRightInnerController{
+    background-color: #2e122b96;
+    height: max-content;
+    padding: 10px 5px;
+    overflow: hidden;
+}
